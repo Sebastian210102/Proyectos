@@ -1,0 +1,47 @@
+.fixed{
+    position: fixed;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: rgba(104, 34, 204, 1);
+}
+.nav-link {
+    color:blanchedalmond;
+}
+.logo{
+
+    position: fixed;
+    width: 100px;
+    height:100px;
+    z-index: 10;
+    bottom:0px; 
+   right:0px;
+   opacity: 0.4;
+}
+  body {
+    background-color: #f0f8ff; /* Color de fondo celeste claro */
+  }
+
+  h1 {
+    color: #000080; /* Azul marino */
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  th, td {
+    border: 1px solid #fff; /* Bordes blancos */
+    padding: 10px;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ffffff; /* Fondo blanco para filas pares */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #f0f8ff; /* Fondo celeste claro para filas impares */
+  }

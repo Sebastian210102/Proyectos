@@ -1,0 +1,113 @@
+.text-background {
+    background-color: rgba(0, 0, 0, 0.6);  /* Fondo negro semi-transparente */
+    padding: 20px;   /* Espacio alrededor del texto */
+    border-radius: 10px; /* Esquinas redondeadas */
+    max-width: 600px; /* Ancho máximo para el fondo del texto */
+    margin: 0 auto; /* Centra horizontalmente el bloque de texto */
+}
+
+
+.text-background h1, .text-background p {
+    color: #ffffff;  /* Texto blanco */
+}
+
+
+
+
+
+.fixed{
+    position: fixed;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: rgba(104, 34, 204, 1);
+}
+.nav-link {
+    color:blanchedalmond;
+}
+.logo{
+
+    position: fixed;
+    width: 100px;
+    height:100px;
+    z-index: 10;
+    bottom:0px; 
+   right:0px;
+   opacity: 0.4;
+}
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .led-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background-color: #333;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .led {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            ;
+            border-radius: 50%;
+            animation: blink 1s infinite alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0.2;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .component {
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            margin: 20px auto;
+        }
+        
+.Fondo{
+
+    background-image:  url(/static/Productos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;/* Asegura que el contenedor tenga altura completa */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; /* Estas 3 líneas aseguran que el contenido esté centrado verticalmente */
+    background-repeat: repeat-y; /* Repetir verticalmente */
+    
+
+    
+}
+img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    
+}
